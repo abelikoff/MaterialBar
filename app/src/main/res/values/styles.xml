@@ -9,5 +9,12 @@
     <style name="PopupTheme" parent="ThemeOverlay.AppCompat.Light">
         <item name="android:colorBackground">@color/primary</item>
         <item name="android:textColor">@color/icons</item>
+        <item name="android:popupMenuStyle">@style/SpinnerTheme</item>
+    </style>
+
+    <style name="SpinnerTheme" parent="Widget.AppCompat.PopupMenu">
+        <item name="background">@color/primary</item>
+        <item name="android:popupBackground">@color/primary</item>
+        <item name="android:textColor">@color/icons</item>
     </style>
 </resources>

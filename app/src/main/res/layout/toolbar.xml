@@ -9,4 +9,10 @@
     app:popupTheme="@style/PopupTheme"
     android:elevation="4dp">
 
+    <Spinner
+        android:id="@+id/spinner"
+        style="@style/SpinnerTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
 </android.support.v7.widget.Toolbar>
